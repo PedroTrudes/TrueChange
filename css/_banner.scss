@@ -14,12 +14,12 @@
             padding-top: 50px;
             padding-left: 80px;
             margin: 0;
-            color: #0B132A;
+            color: #0b132a;
         }
         p {
             font-size: 15px;
             padding-left: 80px;
-            color: #7C7C7C;
+            color: #7c7c7c;
         }
 
         .btn-get {
@@ -31,12 +31,19 @@
             border-radius: 5px;
             background-color: #f53838;
             box-shadow: 1px 5px 5px #f39393;
+            cursor: pointer;
 
             #btn-txt {
                 font-size: 15px;
                 margin: 0;
                 padding: 0;
                 color: #fff;
+            }
+            &:hover{
+                background-color: #0b132a;
+                transition: 1s;
+                height: 35px;
+                width: 200px;
             }
         }
     }

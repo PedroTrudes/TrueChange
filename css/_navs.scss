@@ -1,9 +1,18 @@
 h1 {
     color: #7C7C7C;
     margin: 10px;
+    padding-left: 150px;
+    cursor: pointer;
+    
+    &:hover{
+        color: #F53838;
+    }
+
 }
 .nav-menu {
     width: 100%;
+    padding-right: 150px;
+    cursor: pointer;
     ul {
         display: flex;
         float: right;
@@ -19,6 +28,10 @@ h1 {
                 text-decoration: none;
                 color: #7C7C7C;
                 font-style: bold;
+
+                &:hover{
+                   color: #F53838;
+                }
             }
         }
     }
