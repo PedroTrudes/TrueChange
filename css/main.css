@@ -170,4 +170,59 @@ h1:hover {
 .information .txt p {
   margin: 0px;
 }
+
+.sc-features {
+  margin: 150px;
+}
+
+.sc-features .banner-features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sc-features .banner-features .img-features {
+  margin: 40px 100px;
+}
+
+.sc-features .banner-features .txt-features {
+  color: #0b132a;
+  margin: 0px 100px;
+}
+
+.sc-features .banner-features .txt-features h2 {
+  font-size: 35px;
+  margin: 0px;
+}
+
+.sc-features .banner-features .txt-features p {
+  font-size: 15px;
+  margin: 10px 0px;
+  color: #4F5665;
+}
+
+.sc-features .banner-features .txt-features .check {
+  display: block;
+}
+
+.sc-features .banner-features .txt-features .check #check-2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sc-features .banner-features .txt-features .check #check-2 img {
+  margin-right: 10px;
+}
+
+.sc-features .banner-features .txt-features .check #check-2 p {
+  display: inline-block;
+  font-size: 13px;
+  color: #4F5665;
+}
+
+.blog {
+  background-color: #FFECEC;
+  height: 250px;
+  margin: 100px;
+}
 /*# sourceMappingURL=main.css.map */
