@@ -221,8 +221,40 @@ h1:hover {
 }
 
 .blog {
-  background-color: #FFECEC;
+  background-color: #F9F9F9;
   height: 250px;
   margin: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog .container-blog {
+  text-align: center;
+  margin: 0px;
+}
+
+.blog .container-blog h2 {
+  color: #4e4231;
+}
+
+.blog .news #bloco {
+  display: inline-block;
+  margin: 0px 32px;
+  padding: 10px;
+  border: 1px solid #F53838;
+  border-radius: 10px;
+}
+
+.blog .news #bloco img {
+  height: 80px;
+}
+
+.blog .news #bloco #info-bloco {
+  display: inline-block;
+}
+
+.blog .news #bloco #info-bloco p {
+  margin: 5px 5px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,38 @@
 .blog {
-    background-color: #FFECEC;
-    height: 250px;
-    margin: 100px;
+  background-color: #F9F9F9;
+  height: 250px;
+  margin: 100px;
+  align-items: center;
+
+  .container-blog {
+    text-align: center;
+    margin: 0px;
+
+    h2 {
+      color: rgb(78, 66, 49);
+    }
+  }
+  .news {
+    // display: inline-block;
+    //background-color: blue;
+    #bloco {
+      display: inline-block;
+      margin: 0px 32px;
+      padding: 10px;
+      border: 1px solid #F53838;
+      border-radius: 10px;
+
+      img{
+          height: 80px;
+      }
+
+      #info-bloco {
+        display: inline-block;
+
+        p{
+            margin: 5px 5px;
+        }
+      }
+    }
+  }
 }
