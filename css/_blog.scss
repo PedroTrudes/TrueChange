@@ -1,15 +1,14 @@
 .blog {
   background-color: #F9F9F9;
   height: 250px;
-  margin: 100px;
-  align-items: center;
+  padding: 100px;
 
   .container-blog {
     text-align: center;
     margin: 0px;
 
     h2 {
-      color: rgb(78, 66, 49);
+      color: #0B132A;
     }
   }
   .news {
@@ -21,6 +20,7 @@
       padding: 10px;
       border: 1px solid #F53838;
       border-radius: 10px;
+      background-color: #FFFFFF;
 
       img{
           height: 80px;

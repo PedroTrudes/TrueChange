@@ -223,10 +223,7 @@ h1:hover {
 .blog {
   background-color: #F9F9F9;
   height: 250px;
-  margin: 100px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 100px;
 }
 
 .blog .container-blog {
@@ -235,7 +232,7 @@ h1:hover {
 }
 
 .blog .container-blog h2 {
-  color: #4e4231;
+  color: #0B132A;
 }
 
 .blog .news #bloco {
@@ -244,6 +241,7 @@ h1:hover {
   padding: 10px;
   border: 1px solid #F53838;
   border-radius: 10px;
+  background-color: #FFFFFF;
 }
 
 .blog .news #bloco img {
@@ -256,5 +254,84 @@ h1:hover {
 
 .blog .news #bloco #info-bloco p {
   margin: 5px 5px;
+}
+
+.subs {
+  background-color: #f9f9f9;
+  height: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subs .info-subs {
+  background-color: #ffffff;
+  margin: 0px 180px;
+  height: 200px;
+  width: 73%;
+  border: 0px solid black;
+  border-radius: 10px;
+  display: table;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subs .info-subs .info-txt {
+  padding-top: 25px;
+  width: 400px;
+  display: table-cell;
+  text-align: center;
+}
+
+.subs .info-subs .info-txt h2 {
+  color: #0b132a;
+  margin-top: 30px;
+}
+
+.subs .info-subs .info-txt p {
+  color: #91959f;
+}
+
+.subs .info-subs .area-txt {
+  width: 400px;
+  display: table-cell;
+}
+
+.subs .info-subs .area-txt input {
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #909090;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.subs .info-subs .area-txt button {
+  height: 30px;
+  width: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px;
+  border-radius: 5px;
+  background-color: #f53838;
+  -webkit-box-shadow: 1px 5px 5px #f39393;
+          box-shadow: 1px 5px 5px #f39393;
+  cursor: pointer;
+}
+
+.subs .info-subs .area-txt button p {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.subs .info-subs .area-txt button:hover {
+  background-color: #0b132a;
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 30px;
+  width: 165px;
 }
 /*# sourceMappingURL=main.css.map */
