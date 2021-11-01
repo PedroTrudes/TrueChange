@@ -1,0 +1,36 @@
+.rod {
+    background-color: #2F2F2F;
+    height: 376px;
+    align-items: center;
+    text-align: center;
+
+
+    h2{
+        color: #6C6C6D;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        font-size: 35px;
+        margin: 0px;
+    }
+
+    img {
+        background-color: #FFFFFF;
+        border-radius: 17px;
+        padding: 10px;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: 1.5s;
+
+        &:hover{
+            border-radius: 0px;
+            background-color: #2F2F2F;
+            transition: 2s;
+
+        }
+    }
+
+    p{
+        color: #a3a4a7;
+        padding-top: 10px;
+    }
+}

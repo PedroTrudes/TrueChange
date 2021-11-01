@@ -106,6 +106,8 @@ h1:hover {
   -webkit-box-shadow: 1px 5px 5px #f39393;
           box-shadow: 1px 5px 5px #f39393;
   cursor: pointer;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 
 .banner-principal .txtbanner .btn-get #btn-txt {
@@ -117,8 +119,8 @@ h1:hover {
 
 .banner-principal .txtbanner .btn-get:hover {
   background-color: #0b132a;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 2.5s;
+  transition: 2.5s;
   height: 35px;
   width: 200px;
 }
@@ -318,6 +320,8 @@ h1:hover {
   -webkit-box-shadow: 1px 5px 5px #f39393;
           box-shadow: 1px 5px 5px #f39393;
   cursor: pointer;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 
 .subs .info-subs .area-txt button p {
@@ -333,5 +337,44 @@ h1:hover {
   transition: 1s;
   height: 30px;
   width: 165px;
+}
+
+.rod {
+  background-color: #2F2F2F;
+  height: 376px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.rod h2 {
+  color: #6C6C6D;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 35px;
+  margin: 0px;
+}
+
+.rod img {
+  background-color: #FFFFFF;
+  border-radius: 17px;
+  padding: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.rod img:hover {
+  border-radius: 0px;
+  background-color: #2F2F2F;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.rod p {
+  color: #a3a4a7;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=main.css.map */
