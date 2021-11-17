@@ -32,7 +32,7 @@
 
 <p align="center">Blog</p>
 
-<a href="https://imgur.com/bCZYMRJ"><img src="https://i.imgur.com/bCZYMRJ.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/bCZYMRJ"><img src="https://i.imgur.com/bCZYMRJ.png" title="source: imgur.com" style="border-radius: 10px" /></a>
 
 <p align="center">Formulario</p>
 
