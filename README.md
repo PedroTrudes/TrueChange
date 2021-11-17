@@ -5,13 +5,11 @@
  <a href="#objetivo">Objetivo</a> •
  <a href="#roadmap">Roadmap</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
 
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚀 Em construção...  🚧
 </h4>
 
 ### Features
@@ -50,6 +48,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Html & CSS](https://www.w3schools.com/)
 - [Sass](https://sass-lang.com/)
+- [Figma](https://www.figma.com/file/fncoPBEVM7Dz29ImoBQUwh/Landing-Page-Teste-Frontend?node-id=1%3A2)
+
 
 ### Autor
 ---
