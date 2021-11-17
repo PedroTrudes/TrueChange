@@ -62,4 +62,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 Feito com ❤️ por Pedro Joaquim Trudes 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/pedrotrudes/)](https://www.linkedin.com/in/pedrotrudes/) 
+[![Linkedin Badge](https://img.shields.io/badge/-pedro-trudes?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/pedrotrudes/)](https://www.linkedin.com/in/pedrotrudes/) 
