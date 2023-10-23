@@ -15,8 +15,7 @@
 ### Features
 
 - [x] Front-end
-- [ ] Consumindo uma API
-- [ ] Responsividade
+- [x] Responsividade
 
 <p align="center">banner principal</p>
 
