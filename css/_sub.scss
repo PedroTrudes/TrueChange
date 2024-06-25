@@ -1,24 +1,26 @@
 .subs {
   background-color: #f9f9f9;
-  height: 350px;
+  padding: 50px 0px;
   align-items: center;
+  //border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   .info-subs {
+    //border: 1px solid red;
     background-color: #ffffff;
     margin: 0px 180px;
-    height: 200px;
-    width: 73%;
-    border: 0px solid black;
+    height: 220px;
+    width: 70%;
     border-radius: 10px;
-    display: table;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-
+    justify-content: space-evenly;
     .info-txt {
-      padding-top: 25px;
-      width: 400px;
-      display: table-cell;
+      //border: 1px solid yellow;
       text-align: center;
-
       h2 {
         color: #0b132a;
         margin-top: 30px;
@@ -27,14 +29,10 @@
         color: #91959f;
       }
     }
-
     .area-txt {
-      width: 400px;
-      display: table-cell;
-     // text-align: center;
-
       input {
         height: 30px;
+        width: 300px;
         border-radius: 10px;
         border: 1px solid #909090;
         background-color: #ffffff;
@@ -50,7 +48,6 @@
         box-shadow: 1px 5px 5px #f39393;
         cursor: pointer;
         transition: 1.2s;
-
         p {
           font-size: 15px;
           margin: 0;

@@ -6,8 +6,6 @@ body {
 
 header {
   background-color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 60px;
   width: 100%;
@@ -15,8 +13,6 @@ header {
 
 main {
   padding: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -26,7 +22,6 @@ h1 {
   padding-left: 150px;
   cursor: pointer;
 }
-
 h1:hover {
   color: #F53838;
 }
@@ -36,49 +31,40 @@ h1:hover {
   padding-right: 150px;
   cursor: pointer;
 }
-
 .nav-menu ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   float: right;
   margin-right: 10px;
 }
-
 .nav-menu ul li {
   list-style-type: none;
   padding-right: 10px;
   text-transform: uppercase;
   margin-top: 10px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .nav-menu ul li a {
   text-decoration: none;
   color: #7C7C7C;
   font-style: bold;
 }
-
 .nav-menu ul li a:hover {
   color: #F53838;
 }
 
 .banner-principal {
   width: 100%;
-  height: 350px;
+  height: 450px;
   padding: 0;
-  display: table;
+  display: flex;
+  border: 1px solid red;
 }
-
 .banner-principal .txtbanner {
   display: table-cell;
   float: left;
   width: 40%;
   margin-left: 100px;
 }
-
 .banner-principal .txtbanner h2 {
   font-size: 45px;
   padding-top: 50px;
@@ -86,45 +72,35 @@ h1:hover {
   margin: 0;
   color: #0b132a;
 }
-
 .banner-principal .txtbanner p {
   font-size: 15px;
   padding-left: 80px;
   color: #7c7c7c;
 }
-
 .banner-principal .txtbanner .btn-get {
   height: 30px;
   width: 150px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-left: 80px;
   border: 2px;
   border-radius: 5px;
   background-color: #f53838;
-  -webkit-box-shadow: 1px 5px 5px #f39393;
-          box-shadow: 1px 5px 5px #f39393;
+  box-shadow: 1px 5px 5px #f39393;
   cursor: pointer;
-  -webkit-transition: 1.2s;
   transition: 1.2s;
 }
-
 .banner-principal .txtbanner .btn-get #btn-txt {
   font-size: 15px;
   margin: 0;
   padding: 0;
   color: #fff;
 }
-
 .banner-principal .txtbanner .btn-get:hover {
   background-color: #0b132a;
-  -webkit-transition: 2.5s;
   transition: 2.5s;
   height: 35px;
   width: 200px;
 }
-
 .banner-principal .img-banner {
   display: table-cell;
   float: left;
@@ -133,207 +109,177 @@ h1:hover {
 }
 
 .information {
-  width: 55%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  width: 50%;
   display: flex;
   padding-top: 50px;
   margin: auto;
   padding-left: 150px;
   padding-right: 150px;
-  -webkit-box-shadow: 0px 50px 20px #EAEBED;
-          box-shadow: 0px 50px 20px #EAEBED;
+  box-shadow: 0px 50px 20px #EAEBED;
   border-radius: 20px;
 }
-
 .information .info {
   height: 100px;
   width: 25%;
   margin: 10px 10px 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding-left: 80px;
 }
-
 .information .info img {
   margin-left: 10px;
   border-radius: 100%;
   background-color: #FFECEC;
 }
-
 .information .txt {
   margin-left: 10px;
 }
-
 .information .txt p {
   margin: 0px;
 }
 
 .sc-features {
-  margin: 150px;
-}
-
-.sc-features .banner-features {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  margin: 50px 0px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.sc-features .banner-features {
+  display: flex;
+  width: 70%;
+  margin: 69px 100px;
+  padding: 50px 25px;
+  justify-content: space-around;
+  align-items: center;
+}
 .sc-features .banner-features .img-features {
-  margin: 40px 100px;
+  display: flex;
+  align-items: center;
 }
-
+.sc-features .banner-features .img-features img {
+  height: 250px;
+}
 .sc-features .banner-features .txt-features {
   color: #0b132a;
-  margin: 0px 100px;
 }
-
 .sc-features .banner-features .txt-features h2 {
   font-size: 35px;
   margin: 0px;
 }
-
 .sc-features .banner-features .txt-features p {
   font-size: 15px;
   margin: 10px 0px;
   color: #4F5665;
 }
-
-.sc-features .banner-features .txt-features .check {
-  display: block;
-}
-
 .sc-features .banner-features .txt-features .check #check-2 {
-  margin: 0px;
-  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-
-.sc-features .banner-features .txt-features .check #check-2 img {
-  margin-right: 10px;
-}
-
 .sc-features .banner-features .txt-features .check #check-2 p {
   display: inline-block;
   font-size: 13px;
   color: #4F5665;
+  margin-left: 5px;
 }
 
 .blog {
   background-color: #F9F9F9;
-  height: 250px;
-  padding: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: auto;
 }
-
 .blog .container-blog {
   text-align: center;
   margin: 0px;
 }
-
 .blog .container-blog h2 {
   color: #0B132A;
 }
-
-.blog .news #bloco {
-  display: inline-block;
-  margin: 0px 32px;
-  padding: 10px;
-  border: 1px solid #F53838;
-  border-radius: 10px;
-  background-color: #FFFFFF;
+.blog .news {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 100px;
 }
-
+.blog .news #bloco {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
 .blog .news #bloco img {
   height: 80px;
 }
-
 .blog .news #bloco #info-bloco {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
 }
-
 .blog .news #bloco #info-bloco p {
   margin: 5px 5px;
 }
 
 .subs {
   background-color: #f9f9f9;
-  height: 350px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 50px 0px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 .subs .info-subs {
   background-color: #ffffff;
   margin: 0px 180px;
-  height: 200px;
-  width: 73%;
-  border: 0px solid black;
+  height: 220px;
+  width: 70%;
   border-radius: 10px;
-  display: table;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
-
 .subs .info-subs .info-txt {
-  padding-top: 25px;
-  width: 400px;
-  display: table-cell;
   text-align: center;
 }
-
 .subs .info-subs .info-txt h2 {
   color: #0b132a;
   margin-top: 30px;
 }
-
 .subs .info-subs .info-txt p {
   color: #91959f;
 }
-
-.subs .info-subs .area-txt {
-  width: 400px;
-  display: table-cell;
-}
-
 .subs .info-subs .area-txt input {
   height: 30px;
+  width: 300px;
   border-radius: 10px;
   border: 1px solid #909090;
   background-color: #ffffff;
   text-align: center;
 }
-
 .subs .info-subs .area-txt button {
   height: 30px;
   width: 150px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border: 2px;
   border-radius: 5px;
   background-color: #f53838;
-  -webkit-box-shadow: 1px 5px 5px #f39393;
-          box-shadow: 1px 5px 5px #f39393;
+  box-shadow: 1px 5px 5px #f39393;
   cursor: pointer;
-  -webkit-transition: 1.2s;
   transition: 1.2s;
 }
-
 .subs .info-subs .area-txt button p {
   font-size: 15px;
   margin: 0;
   padding: 0;
   color: #fff;
 }
-
 .subs .info-subs .area-txt button:hover {
   background-color: #0b132a;
-  -webkit-transition: 1s;
   transition: 1s;
   height: 30px;
   width: 165px;
@@ -342,12 +288,9 @@ h1:hover {
 .rod {
   background-color: #2F2F2F;
   height: 376px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
 }
-
 .rod h2 {
   color: #6C6C6D;
   padding-top: 80px;
@@ -355,26 +298,20 @@ h1:hover {
   font-size: 35px;
   margin: 0px;
 }
-
 .rod img {
   background-color: #FFFFFF;
   border-radius: 17px;
   padding: 10px;
   margin-left: 8px;
   margin-right: 8px;
-  -webkit-transition: 1.5s;
   transition: 1.5s;
 }
-
 .rod img:hover {
   border-radius: 0px;
   background-color: #2F2F2F;
-  -webkit-transition: 2s;
   transition: 2s;
 }
-
 .rod p {
   color: #a3a4a7;
   padding-top: 10px;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
