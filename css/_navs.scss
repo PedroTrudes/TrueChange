@@ -1,36 +1,54 @@
-h1 {
-    color: #7C7C7C;
-    margin: 10px;
-    padding-left: 150px;
-    cursor: pointer;
-    
-    &:hover{
-        color: #F53838;
-    }
-
-}
-.nav-menu {
-    width: 100%;
-    padding-right: 150px;
-    cursor: pointer;
-    ul {
+header{
+    box-sizing: border-box;
+    position: fixed;
+    top: 15px;
+    padding: 0px 80px;
+    .container-menu{
+        border-radius: 28px;
+        padding: 0px 90px;
+        width: 100%;
         display: flex;
-        float: right;
-        margin-right: 10px;
-        li {
-            list-style-type: none;
-            padding-right: 10px;
-            text-transform: uppercase;
-            margin-top: 10px;
-            align-items: center;
+        justify-content: space-around;
+        align-items: center;
+        //efeito vidro no menu
+        background: rgba( 255, 255, 255, 0.4 );
+        box-shadow: 0 8px 32px 0 rgba(245, 56, 56, 0.17);
+        backdrop-filter: blur( 11.5px );
+        -webkit-backdrop-filter: blur( 11.5px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
 
-            a {
-                text-decoration: none;
-                color: #7C7C7C;
-                font-style: bold;
-
-                &:hover{
-                   color: #F53838;
+        h1 {
+            color: #7C7C7C;
+            margin: 10px;
+            cursor: pointer;
+            transition: 0.85s ease-in-out;
+            
+            &:hover{
+                color: rgb(245, 56, 56);
+            }
+        
+        }
+        .nav-menu {
+            width: 100%;
+            cursor: pointer;
+            ul {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;                
+                li {
+                    list-style-type: none;
+                    text-transform: uppercase;
+                    align-items: center;
+                    margin: 0px 10px;
+                    a {
+                        text-decoration: none;
+                        color: #7C7C7C;
+                        font-style: bold;
+                        transition: 0.85s ease-in-out;
+                        &:hover{
+                           color: #F53838;
+                        }
+                    }
                 }
             }
         }

@@ -5,7 +5,6 @@ body {
 }
 
 header {
-  background-color: #FFFFFF;
   display: flex;
   height: 60px;
   width: 100%;
@@ -16,39 +15,56 @@ main {
   display: flex;
 }
 
-h1 {
+header {
+  box-sizing: border-box;
+  position: fixed;
+  top: 15px;
+  padding: 0px 80px;
+}
+header .container-menu {
+  border-radius: 28px;
+  padding: 0px 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(245, 56, 56, 0.17);
+  backdrop-filter: blur(11.5px);
+  -webkit-backdrop-filter: blur(11.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+header .container-menu h1 {
   color: #7C7C7C;
   margin: 10px;
-  padding-left: 150px;
   cursor: pointer;
+  transition: 0.85s ease-in-out;
 }
-h1:hover {
-  color: #F53838;
+header .container-menu h1:hover {
+  color: rgb(245, 56, 56);
 }
-
-.nav-menu {
+header .container-menu .nav-menu {
   width: 100%;
-  padding-right: 150px;
   cursor: pointer;
 }
-.nav-menu ul {
+header .container-menu .nav-menu ul {
   display: flex;
-  float: right;
-  margin-right: 10px;
-}
-.nav-menu ul li {
-  list-style-type: none;
-  padding-right: 10px;
-  text-transform: uppercase;
-  margin-top: 10px;
+  justify-content: flex-end;
   align-items: center;
 }
-.nav-menu ul li a {
+header .container-menu .nav-menu ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  align-items: center;
+  margin: 0px 10px;
+}
+header .container-menu .nav-menu ul li a {
   text-decoration: none;
   color: #7C7C7C;
   font-style: bold;
+  transition: 0.85s ease-in-out;
 }
-.nav-menu ul li a:hover {
+header .container-menu .nav-menu ul li a:hover {
   color: #F53838;
 }
 
@@ -57,31 +73,26 @@ h1:hover {
   height: 450px;
   padding: 0;
   display: flex;
-  border: 1px solid red;
+  justify-content: space-evenly;
 }
 .banner-principal .txtbanner {
-  display: table-cell;
-  float: left;
-  width: 40%;
-  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .banner-principal .txtbanner h2 {
   font-size: 45px;
-  padding-top: 50px;
-  padding-left: 80px;
   margin: 0;
   color: #0b132a;
 }
 .banner-principal .txtbanner p {
   font-size: 15px;
-  padding-left: 80px;
   color: #7c7c7c;
 }
 .banner-principal .txtbanner .btn-get {
   height: 30px;
   width: 150px;
   align-items: center;
-  margin-left: 80px;
   border: 2px;
   border-radius: 5px;
   background-color: #f53838;
@@ -102,10 +113,12 @@ h1:hover {
   width: 200px;
 }
 .banner-principal .img-banner {
-  display: table-cell;
-  float: left;
-  margin-top: 50px;
-  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.banner-principal .img-banner img {
+  width: 400px;
 }
 
 .information {

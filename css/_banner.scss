@@ -3,24 +3,20 @@
     height: 450px;
     padding: 0;
     display: flex;
-    border: 1px solid red;
-    
+    justify-content: space-evenly;    
 
     .txtbanner {
-        display: table-cell;
-        float: left;
-        width: 40%;
-        margin-left: 100px;
+        //border: 1px solid green;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         h2 {
             font-size: 45px;
-            padding-top: 50px;
-            padding-left: 80px;
             margin: 0;
             color: #0b132a;
         }
         p {
             font-size: 15px;
-            padding-left: 80px;
             color: #7c7c7c;
         }
 
@@ -28,7 +24,6 @@
             height: 30px;
             width: 150px;
             align-items: center;
-            margin-left: 80px;
             border: 2px;
             border-radius: 5px;
             background-color: #f53838;
@@ -51,9 +46,12 @@
         }
     }
     .img-banner {
-        display: table-cell;
-        float: left;
-        margin-top: 50px;
-        margin-left: 70px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        img{
+            width: 400px;
+        }
+      
     }
 }
