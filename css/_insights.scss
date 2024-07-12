@@ -1,19 +1,17 @@
 .information {
-    width: 50%;
+    width: 80%;
     display: flex;
-    padding-top: 50px;
     margin: auto;
-    padding-left: 150px;
-    padding-right: 150px;
     box-shadow: 0px 50px 20px #EAEBED;
     border-radius: 20px ;
+    justify-content: space-evenly;
     .info{
-        height: 100px;
-        width: 25%;
-        margin: 10px 10px 10px;
         display: flex;
+        justify-content: center;
         align-items: center;
-        padding-left: 80px;
+        height: 100px;
+        width: 26%;
+        margin: 10px 10px 10px;
         img {
             margin-left: 10px;
             border-radius: 100%;
@@ -27,3 +25,11 @@
        }
     }
 }
+
+/*
+@media (max-width: 820px) {
+    .information{
+    }
+}
+Não foi preciso trabalhar a responsividade nessa medida     
+*/

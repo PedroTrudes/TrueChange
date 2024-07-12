@@ -8,18 +8,14 @@
   justify-content: center;
 
   .info-subs {
-    //border: 1px solid red;
     background-color: #ffffff;
-    margin: 0px 180px;
     height: 220px;
     width: 70%;
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     .info-txt {
-      //border: 1px solid yellow;
       text-align: center;
       h2 {
         color: #0b132a;
@@ -61,6 +57,15 @@
           width: 165px;
         }
       }
+    }
+  }
+}
+
+
+@media (max-width: 820px) {
+  .subs{
+    .info-subs{
+      flex-direction: column;
     }
   }
 }
