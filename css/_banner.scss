@@ -1,4 +1,5 @@
 .banner-principal {
+    box-sizing: border-box;
     width: 100%;
     height: 450px;
     padding: 0;
@@ -66,5 +67,11 @@
             align-items: center;
            
         }
+    }
+}
+
+@media (max-width: 457px) {
+    .banner-principal{
+        padding: 0px 20px;
     }
 }

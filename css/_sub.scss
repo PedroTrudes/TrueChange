@@ -1,5 +1,6 @@
 .subs {
   background-color: #f9f9f9;
+  box-sizing: border-box;
   padding: 50px 0px;
   align-items: center;
   //border: 1px solid green;
@@ -66,6 +67,40 @@
   .subs{
     .info-subs{
       flex-direction: column;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .subs{
+    .info-subs{
+      padding: 45px 0px;
+
+      .area-txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input{
+          width: 250px;
+        }
+        button{
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .subs{
+    .info-subs{
+      .info-txt{
+        max-width: 220px;
+      }
+      .area-txt{
+        input{
+          width: 220px;
+        }
+      }
     }
   }
 }

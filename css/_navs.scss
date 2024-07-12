@@ -63,3 +63,9 @@ header{
         }
     }
 }
+
+@media (max-width: 457px) {
+    header{
+        display: none;
+    }
+}

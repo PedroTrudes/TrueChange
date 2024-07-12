@@ -78,7 +78,13 @@ header .container-menu .nav-menu ul li a:hover {
     padding: 0px 25px;
   }
 }
+@media (max-width: 457px) {
+  header {
+    display: none;
+  }
+}
 .banner-principal {
+  box-sizing: border-box;
   width: 100%;
   height: 450px;
   padding: 0;
@@ -143,6 +149,11 @@ header .container-menu .nav-menu ul li a:hover {
     align-items: center;
   }
 }
+@media (max-width: 457px) {
+  .banner-principal {
+    padding: 0px 20px;
+  }
+}
 .information {
   width: 80%;
   display: flex;
@@ -171,6 +182,15 @@ header .container-menu .nav-menu ul li a:hover {
   margin: 0px;
 }
 
+@media (max-width: 457px) {
+  .info {
+    flex-direction: column;
+  }
+  .txt {
+    margin-top: 5px;
+    text-align: center;
+  }
+}
 /*
 @media (max-width: 820px) {
     .information{
@@ -228,6 +248,11 @@ Não foi preciso trabalhar a responsividade nessa medida
     height: 200px;
   }
 }
+@media (max-width: 480px) {
+  .sc-features .banner-features {
+    flex-direction: column-reverse;
+  }
+}
 .blog {
   background-color: #F9F9F9;
   height: auto;
@@ -279,6 +304,7 @@ Não foi preciso trabalhar a responsividade nessa medida
 }
 .subs {
   background-color: #f9f9f9;
+  box-sizing: border-box;
   padding: 50px 0px;
   align-items: center;
   display: flex;
@@ -339,6 +365,30 @@ Não foi preciso trabalhar a responsividade nessa medida
 @media (max-width: 820px) {
   .subs .info-subs {
     flex-direction: column;
+  }
+}
+@media (max-width: 480px) {
+  .subs .info-subs {
+    padding: 45px 0px;
+  }
+  .subs .info-subs .area-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subs .info-subs .area-txt input {
+    width: 250px;
+  }
+  .subs .info-subs .area-txt button {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .subs .info-subs .info-txt {
+    max-width: 220px;
+  }
+  .subs .info-subs .area-txt input {
+    width: 220px;
   }
 }
 .rod {

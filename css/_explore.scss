@@ -57,3 +57,11 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .sc-features{
+    .banner-features{
+      flex-direction: column-reverse;
+    }
+  }
+}
